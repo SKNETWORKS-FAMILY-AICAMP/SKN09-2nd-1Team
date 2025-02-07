@@ -20,11 +20,11 @@
 ## 1. 팀 소개  
 **팀명:** (팀 이름)  
 **팀원:**  
-- **김도연**: [GitHub](https://github.com/깃허브계정)  
-- **김영서**: [GitHub](https://github.com/깃허브계정)  
-- **김하늘**: [GitHub](https://github.com/깃허브계정)
-- **윤환**: [GitHub](https://github.com/깃허브계정)  
-- **조민훈**: [GitHub](https://github.com/깃허브계정)  
+- **김도연**: [GitHub](https://github.com/kimdy158)
+- **김영서**: [GitHub](https://github.com/youngsu98)
+- **김하늘**: [GitHub](https://github.com/nini12091)
+- **윤환**: [GitHub](https://github.com/MNYH)
+- **조민훈**: [GitHub](https://github.com/alche22)
  
 
 ---
