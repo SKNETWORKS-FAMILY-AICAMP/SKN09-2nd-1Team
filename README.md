@@ -19,15 +19,11 @@
 ## 1. 팀 소개  
 **팀명:** (팀 이름)  
 **팀원:**  
-- **김도연**: [GitHub](https://github.com/kimdy158)
-- **김영서**: [GitHub](https://github.com/youngsu98)
-- **김하늘**: [GitHub](https://github.com/nini12091)
-- **윤환**: [GitHub](https://github.com/MNYH)
-- **조민훈**: [GitHub](https://github.com/alche22)
- 
+| 김도연 | 김영서 | 김하늘 | 윤환 | 조민훈 |
+|----------|------|------|-----|------|
+| [GitHub](https://github.com/doyeon158) | [GitHub](https://github.com/youngseo98) | [GitHub](https://github.com/nini12091) | [GitHub](https://github.com/MNYH)  | [GitHub](https://github.com/alche22) |
 
----
-<br><br><br>
+
 
 ## 2. 프로젝트 개요  
 ### 📌 프로젝트명: 온라인 학습 수강생 이탈 예측  
