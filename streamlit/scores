@@ -1,8 +1,0 @@
-<script>start("c:\\Users\\woori\\Desktop\\2nd_project\\2nd_project\\scores\\");</script>
-<script>onHasParentDirectory();</script>
-<script>addRow("__pycache__","__pycache__",1,0,"0 B",1739175432,"2/10/25, 5:17:12 PM");</script>
-<script>addRow("accuracy.py","accuracy.py",0,60,"60 B",1739175071,"2/10/25, 5:11:11 PM");</script>
-<script>addRow("all_data.py","all_data.py",0,60,"60 B",1739175065,"2/10/25, 5:11:05 PM");</script>
-<script>addRow("f1_score.py","f1_score.py",0,60,"60 B",1739175052,"2/10/25, 5:10:52 PM");</script>
-<script>addRow("precision.py","precision.py",0,61,"61 B",1739175047,"2/10/25, 5:10:47 PM");</script>
-<script>addRow("recall.py","recall.py",0,58,"58 B",1739175040,"2/10/25, 5:10:40 PM");</script>
