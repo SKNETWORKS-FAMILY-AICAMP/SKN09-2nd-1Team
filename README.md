@@ -3,26 +3,28 @@
 <br>
 
 <details>
-  <summary>📑 프로젝트 목차 (클릭해서 보기)</summary>
+  <summary><strong>📑 프로젝트 목차 </strong></summary>
+  <br>
 
-1. 팀 소개  
-2. 프로젝트 개요  
-3. 기술 스택  
-4. 작업 분담 (WBS)  
-5. 탐색적 데이터 분석 (EDA)  
-6. 머신러닝 학습 결과  
-7. 결론  
-8. 한 줄 회고  
+  1️⃣ **팀 소개**  
+  2️⃣ **프로젝트 개요**  
+  3️⃣ **기술 스택**  
+  4️⃣ **작업 분담 (WBS)**  
+  5️⃣ **탐색적 데이터 분석 (EDA)**  
+  6️⃣ **머신러닝 학습 결과**  
+  7️⃣ **결론**  
+  8️⃣ **한 줄 회고**  
 
 </details>
+
 
 ---
 
 # 1. 팀 소개
 
-**팀명:** DGMON(Dropout Guard Manager On Network)
+### **팀명:** DGMON(Dropout Guard Manager On Network)
 
-**팀원:**  
+### **팀원:**  
 |![김도연](https://github.com/user-attachments/assets/df766bcf-53bd-4e2e-900e-ac812934c0d4) |![김영서](https://github.com/user-attachments/assets/705537f0-f571-4df8-878e-b1b2be82ab13) |![김하늘](https://github.com/user-attachments/assets/a7873135-dc15-4ea8-b946-7a2eafbca678)| ![윤환](https://github.com/user-attachments/assets/6eee4c24-904a-48dd-96c9-e192d4eb8011)| ![조민훈](https://github.com/user-attachments/assets/32b1165e-f7d6-49b6-b7d2-3abfd31ebc2c) |
 |:-----:|:------:|:------:|:-----:|:------:|
 | 김도연 | 김영서 | 김하늘 | 윤환 | 조민훈 |
@@ -33,100 +35,108 @@
 
 ---
 
-## 2. 프로젝트 개요 
+# 2. 프로젝트 개요 
 
-<br>
-
-### 📌 프로젝트명: 온라인 학습 플랫폼 수강생 이탈 예측
-
-<br>
+## 📌 온라인 학습 플랫폼 수강생 이탈 예측
 
 ### 1️⃣ 프로젝트 소개
 
-- 온라인 학습 플랫폼에서 수강생의 수료를 달성하기 위해, 이탈하는 학생을 예측하고 주요 원인을 파악함.
-- 머신러닝을 활용하여 학습자의 이탈을 예측하고, 맞춤형 개입 전략을 자동 추천하는 시스템을 구축.
-- 또한, 사용자가 머신러닝 모델과 파라미터를 직접 선택하고 학습할 수 있는 웹사이트를 제작하여, 모델의 성능을 직접 확인할 수 있도록 함.
+온라인 학습 플랫폼에서 **수강생의 이탈을 사전에 예측**하고, **주요 원인을 파악**하여 **수료율을 개선**하는 것이 목표입니다.
 
-✅ 핵심 기능:
-1. 다양한 머신러닝 모델(XGBoost, 랜덤 포레스트, 로지스틱 회귀 등)을 직접 선택하고 학습
-2. 예측 모델 성능(AUC-ROC, 정확도) 비교 기능 제공
-3. 이탈 가능성이 높은 학습자의 정보 제공
-4. 이탈을 방지하기 위한 맞춤형 개선 전략 자동 추천
+### 🛠️ **프로젝트 내용**  
+- **머신러닝 기반 예측 모델**을 통해 이탈 가능성을 사전에 탐지  
+- **개별 학습자 특성 분석**을 바탕으로 **맞춤형 지원 방안** 추천  
+- **모델 선택 및 학습 웹사이트**를 구축하여 사용자가 직접 성능을 확인할 수 있는 인터페이스 제공  
 
-<br>
 
-### 2️⃣ 프로젝트 필요성
-📉 온라인 학습 플랫폼의 높은 이탈률 문제
+### 🌟 **핵심 기능**
 
-- 온라인 강의를 등록한 학습자의 이탈률이 **13%** 에 달하며, 교육 플랫폼의 수익 감소와 직결됩니다.
-- Coursera, Udemy, Khan Academy 등 주요 온라인 교육 플랫폼에서도 수강생 유지율이 큰 도전 과제
-- 학습자가 초기에는 적극적으로 참여하지만, 시간이 지날수록 학습 동기가 약화됨
+| 🛠️ 기능                      | 📝 설명                                                |
+|--------------------------|---------------------------------------------------|
+| **모델 선택 및 성능 비교** | XGBoost, 랜덤 포레스트, 로지스틱 회귀 등 다양한 모델을 선택하여 학습 |
+| **모델 성능 시각화**     | R1 Score, 정확도 등 **주요 성능 지표 시각화**로 이해도 향상    |
+| **이탈 가능성 학습자 탐지** | 이탈 가능성이 높은 **학습자 목록 및 상세 분석** 제공           |
+| **맞춤형 지원 방안 추천** | 학습 패턴을 바탕으로 **이탈 예방을 위한 전략 추천**      |
 
-🤖 머신러닝 기반 자동화된 개입의 필요성
+---
 
-- 기존의 수동적인 사용자 관리 방식은 효과가 낮으며, 머신러닝을 활용한 자동 이탈 예측 및 대응이 필수적입니다.
-- 단순한 이메일 리마인더 → 효과 제한적
-- 머신러닝 기반 맞춤형 개입 → 개별 학습자의 학습 패턴 분석 후 최적의 개입 전략 제공 가능
+### **2️⃣ 프로젝트 필요성**
 
-💡 사용자가 직접 모델을 선택하고 학습해볼 수 있는 기능 제공
+![image](https://github.com/user-attachments/assets/4c693ded-3f5f-4a2c-9513-e20e41432d92)
+###### -출처 : https://www.manuscriptlink.com/society/kips/conference/ask2024/file/downloadSoConfManuscript/abs/KIPS_C2024A0265
 
-- 일반적인 머신러닝 분석 결과를 제공하는 것이 아니라, 사용자가 원하는 모델을 직접 학습하고 성능을 비교할 수 있도록 함
-- 데이터 분석 결과의 신뢰성을 제공
+📉 **온라인 학습 플랫폼의 높은 이탈률**  
+- 평균 이탈률 13%로, 교육 플랫폼의 **수익 감소 및 학습 효율 저하**에 직결  
+- **Coursera, Udemy, Khan Academy** 등 글로벌 플랫폼도 동일한 **수강생 유지율** 문제에 직면  
 
-<br>
+---
 
 ### 3️⃣ 프로젝트 목표
 
-✅ 사용자 맞춤형 머신러닝 모델 선택 기능 제공
+#### ✅ 사용자 맞춤형 머신러닝 모델 선택 기능 제공
 
 - 웹사이트에서 다양한 모델을 선택하고 학습 가능, 학습 완료 후 각 모델의 성능비교 제공
 
-✅ 이탈 가능 학습자 식별 및 정보 제공
+#### ✅ 이탈 가능 학습자 식별 및 정보 제공
 
 - 이탈 확률이 높은 학습자 리스트 제공
 
-✅ 맞춤형 개입 전략 자동 추천
+#### ✅맞춤형 지원 방안 자동 추천 
+- **수동적인 사용자 관리** → **비효율적**  
+- **머신러닝 기반 맞춤형 개입** → **학습자의 패턴 분석을 통한 최적화 전략 도출**  
 
-<br>
+#### ✅ **관리자 (UX) 제공**  
+- **웹 페이지**에서 **사용자가 직접 모델을 선택**하여 학습 결과 확인 가능  
+- **모델 성능과 데이터 분석 결과** 제공
+
+---
 
 ### 4️⃣ 데이터 개요
 
 #### 📉 Open University Learning Analytics Dataset (OULAD) 소개
 
-**1) 데이터셋 개요**
+---
 
-OULAD는 영국 Open University에서 제공하는 학습 분석 데이터셋으로, 학생들의 학습 행동과 성과를 분석하는 연구에 활용됩니다. 본 데이터셋은 학습자들의 **행동(Behavior)** 및 **성과(Performance)** 요소를 포함하고 있으며, 총 **22개 코스, 32,593명의 학생 데이터** 기반
+#### 🗂️ 1. 데이터셋 개요
 
-**2) 데이터 구성**
+OULAD는 영국 Open University에서 제공하는 학습 분석 데이터셋으로, 학생들의 학습 행동과 성과를 분석하는 연구에 활용됩니다. 본 데이터셋은 학습자들의 **행동(Behavior)** 및 **성과(Performance)** 요소를 포함하고 있으며, 총 **22개 코스, 32,593명의 학생 데이터** 기반으로 구성되어 있습니다.
 
-- **학습 행동 데이터**: 학생들의 학습 환경(VLE)에서의 활동 기록 (총 10,655,280개의 클릭 로그)
-- **성과 데이터**: 학생들의 평가(assessment) 점수 및 최종 성적
+📌 **주요 특징**
+- 🎓 **교육 분야 연구에 최적화된 데이터셋**
+- 🔍 **다양한 학습 행동 및 성과 지표 포함**
+- 🛠️ **머신러닝 모델 학습 및 분석에 유용**
 
-**3) 주요 데이터 파일**
+#### 🧾 2. 데이터 구성
 
-1. **studentInfo.csv** – 학생의 인구통계학적 정보 (성별, 연령, 지역 등)
-2. **studentRegistration.csv** – 학생의 코스 등록 상태 및 시기
-3. **studentAssessment.csv** – 학생의 평가(과제 및 시험) 점수
-4. **studentVle.csv** – 학생들의 VLE 상호작용(클릭 수 등) 기록
-5. **studentFinalResult.csv** – 학생들의 최종 성적 결과
+- 📊 **학습 행동 데이터**: 학생들의 학습 환경(VLE)에서의 활동 기록 (**총 10,655,280개의 클릭 로그**)
+- 🎯 **성과 데이터**: 학생들의 평가(assessment) 점수 및 최종 성적
 
-**4) 주요 사용 변수**
+#### 📂 3. 주요 데이터 파일
+
+1. 🧑‍🎓 **studentInfo.csv**
+   - 학생의 인구통계학적 정보 (성별, 연령, 지역 등)
+2. 🗓️ **studentRegistration.csv**
+   - 학생의 코스 등록 상태 및 시기
+3. 📝 **studentAssessment.csv**
+   - 학생의 평가(과제 및 시험) 점수
+4. 🖱️ **studentVle.csv**
+   - 학생들의 VLE 상호작용(클릭 수 등) 기록
+5. 🎓 **studentFinalResult.csv**
+   - 학생들의 최종 성적 결과
+
+#### ⚙️ 4. 주요 사용 변수
+
 ![image1](https://github.com/user-attachments/assets/83063868-5071-4dd4-882f-88aff2690718)
-
-<br>
-
 ---
 
 
-## 3. 기술 스택  
-| 분야 | 기술 |
-|------|------|
-| **데이터 분석** | Pandas, NumPy, Scikit-learn |
-| **머신러닝** | XGBoost, LightGBM, Random Forest |
-| **기타** | Git, Streamlit |
+## 🛠️ 기술 스택
 
-
-<br>
+| 분야             | 기술 |
+|------------------|------|
+| **데이터 분석** | ![Pandas](https://img.shields.io/badge/-Pandas-150458?logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?logo=numpy&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?logo=scikit-learn&logoColor=white) |
+| **머신러닝**    | ![XGBoost](https://img.shields.io/badge/-XGBoost-EB4C42?logo=xgboost&logoColor=white) ![LightGBM](https://img.shields.io/badge/-LightGBM-00A651?logo=lightgbm&logoColor=white) ![Random Forest](https://img.shields.io/badge/-Random%20Forest-228B22?logo=treehouse&logoColor=white) |
+| **기타**       | ![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?logo=streamlit&logoColor=white) |
 
 ---
 
@@ -134,15 +144,15 @@ OULAD는 영국 Open University에서 제공하는 학습 분석 데이터셋으
 
 ![image9](https://github.com/user-attachments/assets/b482f4d7-fdda-4bc3-80d1-70f72572d915)
 
-<br>
-
 ---
 
 ## 5. 탐색적 데이터 분석 (EDA)
 
 ### 1️⃣ 데이터 전처리 과정
 - 결측값 처리: 
-imd_band 와 score, sum_click에 결측값이 존재, 이를 최빈값과 0으로 대체함 (결측값이 시험을 보지 않아서 0으로 대체?)
+imd_band 와 score, sum_click에 결측값이 존재, 이를 최빈값과 0으로 대체
+![image](https://github.com/user-attachments/assets/a1e173b9-51fe-4979-aeac-59120ae40865)
+
 - 목적 변수: 이진 분류를 위해 형태 변환
 0 = 학습 포기 (Withdrawn)
 1 = 학습 지속 (Pass, Fail, Distinction)
