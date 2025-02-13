@@ -220,22 +220,33 @@ new_education_encodings = {
 
 ![image](https://github.com/user-attachments/assets/a4aa1522-e1ae-4e70-b373-9f504f96b224)
 
+✅ 경제 수준별 이탈률
+![image](https://github.com/user-attachments/assets/639c3224-66a7-4bb5-b07f-2e8b401b035c)
+
+✅ 시험 점수별 이탈률
+![image](https://github.com/user-attachments/assets/774ceab6-1507-4ae1-bb7c-5475e398d994)
+![image](https://github.com/user-attachments/assets/01300dfd-c2cb-41e9-97fe-020547695c5e)
+
+✅ 이수 학점별 이탈률
+![image](https://github.com/user-attachments/assets/18ad1a27-64e6-4a37-b4ca-82f49bff8063)
 
 ## 6. 머신러닝 학습 결과
 
 ### 1️⃣ 선택 모델 및 성능 비교
 - **선택한 분류 모델**
 - 랜덤포레스트, 그레디언트 부스팅, 결정 트리, KNN, XGBoost, LightGBM, 로지스틱 회귀
-<표 추가>
+![image](https://github.com/user-attachments/assets/170bd2b6-ac63-4945-a949-27cdc82116a9)
 
 ### 2️⃣ 모델 결과 시각화
-<시각화 자료 추가>
+![image](https://github.com/user-attachments/assets/c07ebe93-236f-4f4a-ba3a-fa9bff5a65f0)
 
 ### 3️⃣ 특성 중요도 분석
-<특성 중요도 사진 추가>
-<설명 추가>
-
-<br>
+![image](https://github.com/user-attachments/assets/711a0401-847c-49f2-a913-d4be6ba39e4e)
+![image](https://github.com/user-attachments/assets/60ec620e-cb9b-4b04-89f1-921a83aeaf38)
+![image](https://github.com/user-attachments/assets/c04bdd3c-b35f-47f7-a401-997d89374384)
+![image](https://github.com/user-attachments/assets/fdbdaafa-b51e-40bb-968e-da0f53134443)
+![image](https://github.com/user-attachments/assets/88a5aad6-7430-41ae-8bd4-d449fe28ab99)
+![image](https://github.com/user-attachments/assets/462d6d1f-7dee-483d-bb58-827309d70a67)
 
 ---
 
