@@ -93,15 +93,15 @@
 
 ### 3️⃣ 프로젝트 목표
 
-✅ 1) 사용자 맞춤형 머신러닝 모델 선택 기능 제공
+✅ 사용자 맞춤형 머신러닝 모델 선택 기능 제공
 
 - 웹사이트에서 다양한 모델을 선택하고 학습 가능, 학습 완료 후 각 모델의 성능비교 제공
 
-✅ 2) 이탈 가능 학습자 식별 및 정보 제공
+✅ 이탈 가능 학습자 식별 및 정보 제공
 
 - 이탈 확률이 높은 학습자 리스트 제공
 
-✅ 3) 맞춤형 개입 전략 자동 추천
+✅ 맞춤형 개입 전략 자동 추천
 
 <br>
 
@@ -127,7 +127,7 @@ OULAD는 영국 Open University에서 제공하는 학습 분석 데이터셋으
 5. **studentFinalResult.csv** – 학생들의 최종 성적 결과
 
 **주요 사용 변수**
-<이미지 추가>
+![image1](https://github.com/user-attachments/assets/83063868-5071-4dd4-882f-88aff2690718)
 
 <br>
 
@@ -148,7 +148,8 @@ OULAD는 영국 Open University에서 제공하는 학습 분석 데이터셋으
 
 ## 4. 작업 분담 (WBS)  
 
-<이미지 첨부예정>
+![image9](https://github.com/user-attachments/assets/b482f4d7-fdda-4bc3-80d1-70f72572d915)
+
 <br>
 
 ---
@@ -163,9 +164,17 @@ imd_band 와 score, sum_click에 결측값이 존재, 이를 최빈값과 0으�
 1 = 학습 지속 (Pass, Fail, Distinction)
 - code_module과 imd_band는 범주형 변수는 각각의 고유한 문자열을 숫자로 라벨인코딩 수행
 - 활동 기록인 클릭 로그 데이터의 편향된 분포를 확인하고 로그 스케일링 수행
+
+![output4](https://github.com/user-attachments/assets/2f154498-1732-4add-86b5-96dd3cdf3562)
+
+![output3](https://github.com/user-attachments/assets/eaae731f-ce90-4308-a6f4-281cc945c18c)
+
 - score, studied_credits 특성은 정규분포를 따르지 않아 MinMax스케일링 수행
+
+![output6](https://github.com/user-attachments/assets/acc62c5d-b262-4404-998c-b86bcef23c02)
+
 - 학생 아이디를 기준으로 데이터 병합
-- 최종 데이터
+- 최종 데이터 <사진 추가>
 
 ### 2️⃣ EDA 인사이트 및 주요 패턴 
 **2.1 이탈자 vs. 비이탈자 비교**
@@ -219,10 +228,60 @@ imd_band 와 score, sum_click에 결측값이 존재, 이를 최빈값과 0으�
 
 #### A) 분석 모델 선택
 
+**첫 페이지**
+![model_page_1](https://github.com/user-attachments/assets/212d3203-477b-4ce2-b9e8-60570194feca)
+
+<br>
+
+**모델 선정**
+
+![model_page_2](https://github.com/user-attachments/assets/d76b12a9-dd8c-44dc-8200-a0b0c62376b3)
+
+<br>
+
+**파라미터 선정**
+
+![model_page_3](https://github.com/user-attachments/assets/d9492772-8ce5-46a1-ae9e-8a4699659a68)
+
+
+<br>
+
+**분석 수행**
+
+![model_page_4](https://github.com/user-attachments/assets/40c1daa1-7396-415f-9110-43c221752a65)
+
+
 #### B) 분석 모델 시각화
+
+**분석 결과 확인**
+
+![result_1](https://github.com/user-attachments/assets/737b9486-b78e-4b66-a83f-4438be3f92f5)
 
 
 #### C) 이탈 학생 정보 확인
+
+**학생 정보 확인 페이지**
+
+![search_result_1](https://github.com/user-attachments/assets/08f180e2-4670-4113-85c8-fb07f3793fa4)
+
+<br>
+
+**학생이 유지로 예측하는 경우**
+
+![search_result_2](https://github.com/user-attachments/assets/f724ab63-a76d-4a2c-829a-7d79c778fa3d)
+
+<br>
+
+**학생이 이탈로 예측하는 경우**
+
+![search_result_3](https://github.com/user-attachments/assets/9d5630a6-7c1c-4fb2-9bfd-751fd747c69e)
+
+
+<br>
+
+**이탈로 예측했을 때 지원 방안 제시**
+ 
+![search_result_4](https://github.com/user-attachments/assets/35acab4e-3bcb-42ed-8697-ba2ddcc72f80)
 
 
 ### 2️⃣ 향후 과제
