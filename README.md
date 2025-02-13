@@ -293,37 +293,43 @@ new_education_encodings = {
 
 
 ### **소개 페이지**
-![introduce](https://github.com/user-attachments/assets/4fea846a-5e8e-44f3-9bdc-b37f2910a70f)
+![introduce](https://github.com/user-attachments/assets/01f5ebed-e3f9-4aa0-8c2c-f1d5b365e666)
+
 
 ### **모델 학습 페이지**
-![model_page_1](https://github.com/user-attachments/assets/1a74bc8d-7fb4-44f4-a0e8-84880e43a20e)
-![model_page_2](https://github.com/user-attachments/assets/55ab736d-37c3-4862-98b6-bce4ac17de4a)
-![model_page_3](https://github.com/user-attachments/assets/4e9b7d49-3b21-4d59-a91e-62ff0bf44b21)
-![model_page_4](https://github.com/user-attachments/assets/37278e1e-7810-4608-8f6f-d4169b3ff05e)
+![model_page_1](https://github.com/user-attachments/assets/4fb7a650-5e56-447c-bfb7-4e974b462e45)
+![model_page_2](https://github.com/user-attachments/assets/13382740-1f25-4b07-955e-ce59ffb25fb6)
+![model_page_3](https://github.com/user-attachments/assets/3fae9fa3-216e-4912-8807-eb259beb7dd1)
+![model_page_4](https://github.com/user-attachments/assets/af1bdd4d-b086-450e-9884-ed2fb906db3b)
+
 
 
 ### **최종 결과 페이지**
-![result_1](https://github.com/user-attachments/assets/1305c785-a667-4434-a7e9-6c41dae1e3bc)
-![result_2](https://github.com/user-attachments/assets/5fdb2cf2-534e-4557-bd03-6926303aced8)
-![result_3](https://github.com/user-attachments/assets/d78547f1-49bc-494b-baab-6fbedcf5cc4e)
-![result_4](https://github.com/user-attachments/assets/d3f132a0-965f-4929-ac6e-94099ae8bdb3)
-![result_5](https://github.com/user-attachments/assets/efa870af-e517-4bc8-95d6-7612f7d5b8f3)
+![result_1](https://github.com/user-attachments/assets/7f8cc71c-2699-486d-b8cf-13e1cddd6edd)
+![result_2](https://github.com/user-attachments/assets/73d0d0f1-1ceb-4935-a894-252c5b1cba66)
+![result_3](https://github.com/user-attachments/assets/3e57ee8a-1c71-48d0-bf39-b355633746e7)
+![result_4](https://github.com/user-attachments/assets/911293ae-6653-4b1d-bbd4-afe84ff67caf)
+![result_5](https://github.com/user-attachments/assets/4ba62504-53a2-4c73-ba5d-f8f402e5af03)
+
 
 
 ### **참여도 예측 페이지**
-![Participation_1](https://github.com/user-attachments/assets/06f1c889-e838-4617-bf5b-f37cd5dc52bf)
-![Participation_2](https://github.com/user-attachments/assets/b893b149-98bb-4104-b54c-31a2225345d2)
-![Participation_3](https://github.com/user-attachments/assets/46593f37-4aec-40d8-84fc-526453bfd7c9)
-![Participation_4](https://github.com/user-attachments/assets/4fb1a393-4d2b-40d2-88c6-549f588de8ab)
+![Participation_1](https://github.com/user-attachments/assets/fdb73ae3-99b5-471c-acba-0281b554dfb4)
+![Participation_2](https://github.com/user-attachments/assets/37ff8452-d1c0-45bd-9d2e-549efd993df1)
+![Participation_3](https://github.com/user-attachments/assets/957b1a68-0222-4403-9d9a-5fcf349846cd)
+![Participation_4](https://github.com/user-attachments/assets/fff071b2-d9fd-495b-90f2-06428c61f126)
+
 
 
 
 ### **결과 예측  페이지**
-![search_result_1](https://github.com/user-attachments/assets/4d9a10a7-3728-45c9-bd0b-3ce8a68ef171)
-![search_result_2](https://github.com/user-attachments/assets/98f2e1dd-adfd-4d92-8d78-f5834aefc35a)
-![search_result_3](https://github.com/user-attachments/assets/f9a8e78a-ebb1-4ca5-9f2e-ba327a82fce6)
-![search_result_4](https://github.com/user-attachments/assets/9d32dbd3-cdd0-4d2f-a0ef-e059da0f44f4)
-![search_result_5](https://github.com/user-attachments/assets/ebde9800-8ee8-4b1d-900b-804a40ce22e9)
+![search_result_1](https://github.com/user-attachments/assets/7dc2ff40-4212-417a-97b1-4607f5e4c347)
+![search_result_2](https://github.com/user-attachments/assets/82a179eb-be89-400d-8ffc-2cc3430131c5)
+![search_result_3](https://github.com/user-attachments/assets/2cbba1cf-1175-4601-bce2-4ba76f27ea5a)
+![search_result_4](https://github.com/user-attachments/assets/0781de34-192d-497e-83a2-e6167cb8bf76)
+![search_result_5](https://github.com/user-attachments/assets/fd89bf60-1868-4606-8103-0a16eed9a6a8)
+
+
 
 <br><br>
 
