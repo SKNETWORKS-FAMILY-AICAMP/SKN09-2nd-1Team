@@ -112,21 +112,38 @@ OULAD는 영국 Open University에서 제공하는 학습 분석 데이터셋으
 - 🎯 **성과 데이터**: 학생들의 평가(assessment) 점수 및 최종 성적
 
 #### 📂 3. 주요 데이터 파일
+#### 데이터 ERD
+
+![image](https://github.com/user-attachments/assets/78635970-76d7-42ae-a0a0-161099a03c11)
 
 1. 🧑‍🎓 **studentInfo.csv**
    - 학생의 인구통계학적 정보 (성별, 연령, 지역 등)
-2. 🗓️ **studentRegistration.csv**
-   - 학생의 코스 등록 상태 및 시기
-3. 📝 **studentAssessment.csv**
+2. 📝 **studentAssessment.csv**
    - 학생의 평가(과제 및 시험) 점수
-4. 🖱️ **studentVle.csv**
+3. 🖱️ **studentVle.csv**
    - 학생들의 VLE 상호작용(클릭 수 등) 기록
-5. 🎓 **studentFinalResult.csv**
-   - 학생들의 최종 성적 결과
 
 #### ⚙️ 4. 주요 사용 변수
 
-![image1](https://github.com/user-attachments/assets/83063868-5071-4dd4-882f-88aff2690718)
+![image](https://github.com/user-attachments/assets/cd77c014-bc0a-4237-b833-61c0ae55fe76)
+
+| 변수명 (column name) | 변수 설명 (description)                             | 변수 유형 (data type) |
+|----------------------|------------------------------------------------|------------------|
+| `id_student`         | 학습자 고유 ID (각 학생을 구분하는 키)                 | 🔢 정수형 (Integer) |
+| `code_module`        | 수강한 강좌의 코드 (과목 식별자)                     | 📝 문자열 (String)  |
+| `highest_education`  | 학습자의 최고 교육 수준 (고등학교, 학사, 석사 등)         | 📝 문자열 (String)  |
+| `studied_credits`    | 학생이 수강한 학점 (이수하려는 학점)                   | 🔢 정수형 (Integer) |
+| `imd_band`           | 학습자의 사회경제적 수준 (IMD 지표)                   | 📝 문자열 (String)  |
+| `final_result`       | 학습자의 최종 결과 (Pass, Fail, Withdraw 등)          | 📝 문자열 (String)  |
+| `id_assessment`      | 평가(시험, 과제 등) ID                              | 🔢 정수형 (Integer) |
+| `score`              | 학생이 평가에서 받은 점수                           | 🔢 실수형 (Float)   |
+| `sum_click`          | 총 클릭 수 (온라인 학습 플랫폼 내 클릭 횟수)           | 🔢 정수형 (Integer) |
+| `mean_click`         | 평균 클릭 수 (평균 클릭 횟수)                       | 🔢 실수형 (Float)   |
+| `log_sum_click`      | 총 클릭 수의 로그 변환 값                           | 🔢 실수형 (Float)   |
+| `log_mean_click`     | 평균 클릭 수의 로그 변환 값                         | 🔢 실수형 (Float)   |
+| `log_studied_credits`| 수강 학점의 로그 변환 값                            | 🔢 실수형 (Float)   |
+| `scaled_studied_credits` | 표준화된 수강 학점                           | 🔢 실수형 (Float)   |
+| `scaled_score`       | 표준화된 평가 점수                                 | 🔢 실수형 (Float)   |
 ---
 
 
@@ -234,8 +251,18 @@ new_education_encodings = {
 
 ### 1️⃣ 선택 모델 및 성능 비교
 - **선택한 분류 모델**
-- 랜덤포레스트, 그레디언트 부스팅, 결정 트리, KNN, XGBoost, LightGBM, 로지스틱 회귀
 ![image](https://github.com/user-attachments/assets/170bd2b6-ac63-4945-a949-27cdc82116a9)
+
+- **하이퍼 파라미터 튜닝 모델 추가 성능 비교**
+  ![image](https://github.com/user-attachments/assets/45b14c38-723c-4c9c-b0b7-25a289c6e634)
+
+- **앙상블 모델 결과**
+- Sum Click 기반 성능 결과 <br>
+![image](https://github.com/user-attachments/assets/378a2e49-014c-4b64-a346-e36d5f1d5edc)
+
+- Mean Click 기반 성능 결과 <br>
+![image](https://github.com/user-attachments/assets/60f30e15-d819-44bb-a71b-e7400f6ba506)
+
 
 ### 2️⃣ 모델 결과 시각화
 ![image](https://github.com/user-attachments/assets/c07ebe93-236f-4f4a-ba3a-fa9bff5a65f0)
@@ -250,7 +277,7 @@ new_education_encodings = {
 
 ---
 
-## 7. 결론
+## 7. 시스템 화면
 
 ### 1️⃣ 웹사이트 구현
 
@@ -258,120 +285,24 @@ new_education_encodings = {
 
 ✅ 사용자가 직접 머신러닝 모델 및 파라미터 선택 후 학습 가능
 
-✅ 모델 성능 비교 (정확도, AUC 그래프 제공)
+✅ 모델 성능 비교 (정확도, F1 Score 그래프 제공)
 
 ✅ 이탈 가능성이 높은 학습자 목록 제공
 
 ✅ 이탈 가능 학생의 문제점 분석 및 해결책 자동 추천
 
-#### A) 분석 모델 선택
 
-**첫 페이지**
+### **소개 페이지**
 ![introduce](https://github.com/user-attachments/assets/4fea846a-5e8e-44f3-9bdc-b37f2910a70f)
 
-<br>
 
-**모델 선정**
+### **모델 학습 페이지**
 
-![model_page_1](https://github.com/user-attachments/assets/0ee512df-3fda-4b63-9614-e07a5d3a0946)
+### **최종 결과 페이지**
 
-<br>
+### **참여도 예측 페이지**
 
-**파라미터 선정**
-
-![model_page_2](https://github.com/user-attachments/assets/6878cb4b-cbbd-4196-a79c-060c9742f93f)
-![model_page_3](https://github.com/user-attachments/assets/33fc6f15-cc27-4795-869e-6bb8c492b765)
-
-<br>
-
-**분석 수행**
-
-![model_page_4](https://github.com/user-attachments/assets/4ff77a16-8fa9-447f-9bb6-09243c32d547)
-
-
-
-#### B) 분석 모델 시각화
-
-**분석 결과 확인**
-
-![result_1](https://github.com/user-attachments/assets/8d2bbd83-463f-4d65-89a9-4ebfeb7995d4)
-
-
-<br>
-
-#### B) 
-**1111**
-![Participation_1](https://github.com/user-attachments/assets/b96197b6-bc2b-4a03-9354-418f4c8aca78)
-
-<br>
-
-**2222**
-![Participation_2](https://github.com/user-attachments/assets/0932f2ce-b9af-4f98-8cbe-f64b39f7762a)
-
-<br>
-
-**3333**
-![Participation_3](https://github.com/user-attachments/assets/add3e8af-c4c5-437d-b466-a44b3ac4ece7)
-
-<br>
-
-**4444**
-![Participation_4](https://github.com/user-attachments/assets/81e3dd46-b05c-4c1c-a220-6f0387906012)
-
-<br>
-
-#### D)
-**1111**
-![result_1](https://github.com/user-attachments/assets/3e297a9a-46f9-455a-9e0d-e389e7c61256)
-
-<br>
-
-**2222**
-![result_2](https://github.com/user-attachments/assets/bc8f735c-0e6b-4c5b-810e-e0c8d9730aea)
-
-<br>
-
-**3333**
-![result_3](https://github.com/user-attachments/assets/e698c4ec-5951-4b03-b3b3-ec5ef6c48e65)
-
-<br>
-
-**4444**
-![result_4](https://github.com/user-attachments/assets/0324b512-de97-4ee0-9fc3-04c8928e8272)
-
-<br>
-
-**5555**
-![result_5](https://github.com/user-attachments/assets/6c0abe33-0e6f-4e78-b8fd-1572348fbbe2)
-
-<br>
-
-
-#### E) 이탈 학생 정보 확인
-
-**학생 정보 확인 페이지**
-
-![search_result_1](https://github.com/user-attachments/assets/390f04c9-87a5-4113-b307-4f0c1e7a9b33)
-![search_result_2](https://github.com/user-attachments/assets/d2129738-d476-485e-9e85-b0f23e792815)
-
-<br>
-
-**학생이 유지로 예측하는 경우**
-
-![search_result_3](https://github.com/user-attachments/assets/aaf5f66d-5c7b-4759-9768-5555988f6af6)
-
-<br>
-
-**학생이 이탈로 예측하는 경우**
-
-![search_result_4](https://github.com/user-attachments/assets/036ff44c-e3fc-4fc0-aa17-8f8cfbca31a1)
-
-<br>
-
-**이탈로 예측했을 때 지원 방안 제시**
- 
-![search_result_5](https://github.com/user-attachments/assets/0a83aab5-c683-4151-825a-d1e62aceeca2)
-
+### **결과 예측  페이지**
 
 
 ### 2️⃣ 향후 과제
