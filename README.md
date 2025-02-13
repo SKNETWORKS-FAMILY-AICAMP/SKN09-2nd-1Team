@@ -230,26 +230,27 @@ imd_band 와 score, sum_click에 결측값이 존재, 이를 최빈값과 0으�
 #### A) 분석 모델 선택
 
 **첫 페이지**
-![model_page_1](https://github.com/user-attachments/assets/212d3203-477b-4ce2-b9e8-60570194feca)
+![introduce](https://github.com/user-attachments/assets/4fea846a-5e8e-44f3-9bdc-b37f2910a70f)
 
 <br>
 
 **모델 선정**
 
-![model_page_2](https://github.com/user-attachments/assets/d76b12a9-dd8c-44dc-8200-a0b0c62376b3)
+![model_page_1](https://github.com/user-attachments/assets/0ee512df-3fda-4b63-9614-e07a5d3a0946)
 
 <br>
 
 **파라미터 선정**
 
-![model_page_3](https://github.com/user-attachments/assets/d9492772-8ce5-46a1-ae9e-8a4699659a68)
-
+![model_page_2](https://github.com/user-attachments/assets/6878cb4b-cbbd-4196-a79c-060c9742f93f)
+![model_page_3](https://github.com/user-attachments/assets/33fc6f15-cc27-4795-869e-6bb8c492b765)
 
 <br>
 
 **분석 수행**
 
-![model_page_4](https://github.com/user-attachments/assets/40c1daa1-7396-415f-9110-43c221752a65)
+![model_page_4](https://github.com/user-attachments/assets/4ff77a16-8fa9-447f-9bb6-09243c32d547)
+
 
 
 #### B) 분석 모델 시각화
@@ -258,31 +259,81 @@ imd_band 와 score, sum_click에 결측값이 존재, 이를 최빈값과 0으�
 
 ![result_1](https://github.com/user-attachments/assets/737b9486-b78e-4b66-a83f-4438be3f92f5)
 
+<br>
 
-#### C) 이탈 학생 정보 확인
+#### B) 
+**1111**
+![Participation_1](https://github.com/user-attachments/assets/b96197b6-bc2b-4a03-9354-418f4c8aca78)
+
+<br>
+
+**2222**
+![Participation_2](https://github.com/user-attachments/assets/0932f2ce-b9af-4f98-8cbe-f64b39f7762a)
+
+<br>
+
+**3333**
+![Participation_3](https://github.com/user-attachments/assets/add3e8af-c4c5-437d-b466-a44b3ac4ece7)
+
+<br>
+
+**4444**
+![Participation_4](https://github.com/user-attachments/assets/81e3dd46-b05c-4c1c-a220-6f0387906012)
+
+<br>
+
+#### D)
+**1111**
+![result_1](https://github.com/user-attachments/assets/3e297a9a-46f9-455a-9e0d-e389e7c61256)
+
+<br>
+
+**2222**
+![result_2](https://github.com/user-attachments/assets/bc8f735c-0e6b-4c5b-810e-e0c8d9730aea)
+
+<br>
+
+**3333**
+![result_3](https://github.com/user-attachments/assets/e698c4ec-5951-4b03-b3b3-ec5ef6c48e65)
+
+<br>
+
+**4444**
+![result_4](https://github.com/user-attachments/assets/0324b512-de97-4ee0-9fc3-04c8928e8272)
+
+<br>
+
+**5555**
+![result_5](https://github.com/user-attachments/assets/6c0abe33-0e6f-4e78-b8fd-1572348fbbe2)
+
+<br>
+
+
+#### E) 이탈 학생 정보 확인
 
 **학생 정보 확인 페이지**
 
-![search_result_1](https://github.com/user-attachments/assets/08f180e2-4670-4113-85c8-fb07f3793fa4)
+![search_result_1](https://github.com/user-attachments/assets/390f04c9-87a5-4113-b307-4f0c1e7a9b33)
+![search_result_2](https://github.com/user-attachments/assets/d2129738-d476-485e-9e85-b0f23e792815)
 
 <br>
 
 **학생이 유지로 예측하는 경우**
 
-![search_result_2](https://github.com/user-attachments/assets/f724ab63-a76d-4a2c-829a-7d79c778fa3d)
+![search_result_3](https://github.com/user-attachments/assets/aaf5f66d-5c7b-4759-9768-5555988f6af6)
 
 <br>
 
 **학생이 이탈로 예측하는 경우**
 
-![search_result_3](https://github.com/user-attachments/assets/9d5630a6-7c1c-4fb2-9bfd-751fd747c69e)
-
+![search_result_4](https://github.com/user-attachments/assets/036ff44c-e3fc-4fc0-aa17-8f8cfbca31a1)
 
 <br>
 
 **이탈로 예측했을 때 지원 방안 제시**
  
-![search_result_4](https://github.com/user-attachments/assets/35acab4e-3bcb-42ed-8697-ba2ddcc72f80)
+![search_result_5](https://github.com/user-attachments/assets/0a83aab5-c683-4151-825a-d1e62aceeca2)
+
 
 
 ### 2️⃣ 향후 과제
