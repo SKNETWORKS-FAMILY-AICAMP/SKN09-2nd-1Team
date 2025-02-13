@@ -295,15 +295,37 @@ new_education_encodings = {
 ### **소개 페이지**
 ![introduce](https://github.com/user-attachments/assets/4fea846a-5e8e-44f3-9bdc-b37f2910a70f)
 
-
 ### **모델 학습 페이지**
+![model_page_1](https://github.com/user-attachments/assets/1a74bc8d-7fb4-44f4-a0e8-84880e43a20e)
+![model_page_2](https://github.com/user-attachments/assets/55ab736d-37c3-4862-98b6-bce4ac17de4a)
+![model_page_3](https://github.com/user-attachments/assets/4e9b7d49-3b21-4d59-a91e-62ff0bf44b21)
+![model_page_4](https://github.com/user-attachments/assets/37278e1e-7810-4608-8f6f-d4169b3ff05e)
+
 
 ### **최종 결과 페이지**
+![result_1](https://github.com/user-attachments/assets/1305c785-a667-4434-a7e9-6c41dae1e3bc)
+![result_2](https://github.com/user-attachments/assets/5fdb2cf2-534e-4557-bd03-6926303aced8)
+![result_3](https://github.com/user-attachments/assets/d78547f1-49bc-494b-baab-6fbedcf5cc4e)
+![result_4](https://github.com/user-attachments/assets/d3f132a0-965f-4929-ac6e-94099ae8bdb3)
+![result_5](https://github.com/user-attachments/assets/efa870af-e517-4bc8-95d6-7612f7d5b8f3)
+
 
 ### **참여도 예측 페이지**
+![Participation_1](https://github.com/user-attachments/assets/06f1c889-e838-4617-bf5b-f37cd5dc52bf)
+![Participation_2](https://github.com/user-attachments/assets/b893b149-98bb-4104-b54c-31a2225345d2)
+![Participation_3](https://github.com/user-attachments/assets/46593f37-4aec-40d8-84fc-526453bfd7c9)
+![Participation_4](https://github.com/user-attachments/assets/4fb1a393-4d2b-40d2-88c6-549f588de8ab)
+
+
 
 ### **결과 예측  페이지**
+![search_result_1](https://github.com/user-attachments/assets/4d9a10a7-3728-45c9-bd0b-3ce8a68ef171)
+![search_result_2](https://github.com/user-attachments/assets/98f2e1dd-adfd-4d92-8d78-f5834aefc35a)
+![search_result_3](https://github.com/user-attachments/assets/f9a8e78a-ebb1-4ca5-9f2e-ba327a82fce6)
+![search_result_4](https://github.com/user-attachments/assets/9d32dbd3-cdd0-4d2f-a0ef-e059da0f44f4)
+![search_result_5](https://github.com/user-attachments/assets/ebde9800-8ee8-4b1d-900b-804a40ce22e9)
 
+<br><br>
 
 ### 2️⃣ 향후 과제
 - 머신러닝을 활용한 학습 지속률 개선 + 실질적인 비즈니스 성과 창출
