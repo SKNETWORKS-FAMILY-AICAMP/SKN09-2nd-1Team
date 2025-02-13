@@ -62,7 +62,7 @@
 
 ### **2️⃣ 프로젝트 필요성**
 
-![image](https://github.com/user-attachments/assets/4c693ded-3f5f-4a2c-9513-e20e41432d92)
+![image](https://github.com/user-attachments/assets/ffc326b1-4cd1-415d-8aca-bb4a5188a078)
 ###### -출처 : https://www.manuscriptlink.com/society/kips/conference/ask2024/file/downloadSoConfManuscript/abs/KIPS_C2024A0265
 
 📉 **온라인 학습 플랫폼의 높은 이탈률**  
@@ -151,12 +151,37 @@ OULAD는 영국 Open University에서 제공하는 학습 분석 데이터셋으
 ### 1️⃣ 데이터 전처리 과정
 - 결측값 처리: 
 imd_band 와 score, sum_click에 결측값이 존재, 이를 최빈값과 0으로 대체
-![image](https://github.com/user-attachments/assets/a1e173b9-51fe-4979-aeac-59120ae40865)
+```python
+final_merged_data['imd_band'] = final_merged_data['imd_band'].fillna('20-30%')
+final_merged_data['score'] = final_merged_data['score'].fillna(0)
+final_merged_data['imd_band'] = final_merged_data['imd_band'].replace('10-20', '10-20%')
+```
 
 - 목적 변수: 이진 분류를 위해 형태 변환
 0 = 학습 포기 (Withdrawn)
 1 = 학습 지속 (Pass, Fail, Distinction)
-- code_module과 imd_band는 범주형 변수는 각각의 고유한 문자열을 숫자로 라벨인코딩 수행
+
+```python
+new_final_result_encodings = {
+    'Withdrawn': 0,
+    'Distinction': 1,
+    'Fail': 1,
+    'Pass': 1
+}
+```
+
+- imd_band는 범주형 변수는 각각의 고유한 문자열을 숫자로 라벨인코딩 수행
+
+```python
+new_education_encodings = {
+    'Post Graduate Qualification': 0,
+    'HE Qualification': 1,
+    'A Level or Equivalent': 2,
+    'Lower Than A Level': 3,
+    'No Formal quals': 4
+}
+```
+
 - 활동 기록인 클릭 로그 데이터의 편향된 분포를 확인하고 로그 스케일링 수행
 
 ![output4](https://github.com/user-attachments/assets/2f154498-1732-4add-86b5-96dd3cdf3562)
@@ -167,11 +192,9 @@ imd_band 와 score, sum_click에 결측값이 존재, 이를 최빈값과 0으�
 
 ![output6](https://github.com/user-attachments/assets/acc62c5d-b262-4404-998c-b86bcef23c02)
 
-- 학생 아이디를 기준으로 데이터 병합
-- 최종 데이터 <사진 추가>
 
 ### 2️⃣ EDA 인사이트 및 주요 패턴 
-**2.1 이탈자 vs. 비이탈자 비교**
+**2.1 이탈자 vs. 수료자 비교**
 
 |  | 개수 count | highest_education | imd_band | log_sum_click | log_mean_click | **scaled_studied_credits** | **scaled_score** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -186,14 +209,17 @@ imd_band 와 score, sum_click에 결측값이 존재, 이를 최빈값과 0으�
 
 ✅ 학생의 이수 학점이 높을수록, 학생의 평가 점수가 낮을수록 이탈률 상승
 
-✅ 이탈자는 비이탈자보다 사회경제적 수준이 낮음
+✅ 이탈자는 수료자보다 사회경제적 수준이 높음
 
-✅ 이탈자는 비이탈자보다 클릭 로그 수가 더 낮음
+✅ 이탈자는 수료자보다 클릭 로그 수가 더 낮음
 
+**2.2 특성별 이탈률 분석**
 
-<br>
+✅ 최종 학력별 이탈률
+![image](https://github.com/user-attachments/assets/67dcc494-e03f-40f1-b420-2e540547ed53)
 
----
+![image](https://github.com/user-attachments/assets/a4aa1522-e1ae-4e70-b373-9f504f96b224)
+
 
 ## 6. 머신러닝 학습 결과
 
