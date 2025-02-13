@@ -257,7 +257,8 @@ imd_band 와 score, sum_click에 결측값이 존재, 이를 최빈값과 0으�
 
 **분석 결과 확인**
 
-![result_1](https://github.com/user-attachments/assets/737b9486-b78e-4b66-a83f-4438be3f92f5)
+![result_1](https://github.com/user-attachments/assets/8d2bbd83-463f-4d65-89a9-4ebfeb7995d4)
+
 
 <br>
 
