@@ -1,0 +1,6 @@
+[theme]
+primaryColor="#E53935"        # 🔴 버튼 및 주요 강조 색 (빨강)
+backgroundColor="#FFF5F5"      # 🌸 전체 배경색 (연한 핑크빛)
+secondaryBackgroundColor="#FFD1D1"  # 🎀 사이드바 배경색 (살짝 진한 핑크)
+textColor="#4A4A4A"  # 🔤 글자 색상 (짙은 회색)
+font="sans serif"
