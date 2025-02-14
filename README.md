@@ -304,7 +304,7 @@ new_education_encodings = {
 
 #### 📊 **Mean Click 기반 성능 결과** <br>
 ![image](https://github.com/user-attachments/assets/60f30e15-d819-44bb-a71b-e7400f6ba506)
-- **Mean Click 기반**: 평균 클릭 수를 기반으로 학습한 모델에서도 유사한 패턴이 관찰되었습니다.  
+- **Mean Click 기반**: 평균 클릭 수를 기반으로 학습한 모델에서도 유사한 패턴이 관찰되어 성능이 향상되었습니다.
 ---
 ### 2️⃣ 모델 결과 시각화
 ![image](https://github.com/user-attachments/assets/c07ebe93-236f-4f4a-ba3a-fa9bff5a65f0)
