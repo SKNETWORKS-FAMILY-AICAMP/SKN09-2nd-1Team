@@ -314,7 +314,7 @@ new_education_encodings = {
 
 🎯 **Gradient Boosting**
 - scaled_score와 log_sum_click이 중요도로 분석
-- 
+  
 ![image](https://github.com/user-attachments/assets/711a0401-847c-49f2-a913-d4be6ba39e4e)
 ![image](https://github.com/user-attachments/assets/60ec620e-cb9b-4b04-89f1-921a83aeaf38)
 
